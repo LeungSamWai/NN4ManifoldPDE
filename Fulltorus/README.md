@@ -1,12 +1,6 @@
 # 3D case
 
-## generate the training data 
-We choose the grid points from 2D intrinsic domain as training points, and then discretize *L* and *f* using diffusion map. Follow the command below to generate the uniform points with *width=25* at each axis,
-```
-MATLAB training_data/semitorus_example_N25.m
-```
-To save other *width*, we can directly change *25* to other value in the command, e.g., 35, 71. We save the corresponding params to the matlab file. 
-## sripts
+## scripts
 The scripts can be found in **scripts.py**
 ## run the code
 To run the data with grid length 25, follow the command:
